@@ -28,6 +28,7 @@ class FlowCat extends Component {
                         projectLink={item.projectLink}
                         image={item.image}
                         imageSelector={item.imageSelector}
+                        singlePage={item.singlePage}
                     />
                 )}
             </div>

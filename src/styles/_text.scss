@@ -1,0 +1,119 @@
+a {
+    color: $color-txt-light;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-txt;
+}
+
+.t_name {
+    text-align: left;
+    font-family: 'terminal grotesque open';
+    letter-spacing:1rem;
+    font-size: $txt-size-hero;
+    line-height: $txt-height-hero;
+    color: $color-txt;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}
+
+%t_body_base {
+    font-family: 'barlow';
+    letter-spacing:.15rem;
+    font-size: $txt-size-reg;
+    line-height: $txt-height-reg;
+    color: $color-txt;
+}
+
+.t_stitle {
+    @extend %t_body_base;
+    font-weight: $txt-wt-emp;
+}
+
+.t_intro {
+    font-family: 'barlow';
+    letter-spacing:.2rem;
+    font-size: $txt-size-head;
+    line-height: $txt-height-head;
+    color: $color-txt;
+    text-align: center;
+    opacity: .85;
+}
+
+.t_body {
+    @extend %t_body_base;
+    font-weight: $txt-wt-emp;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}
+
+.t_body2 {
+    @extend %t_body_base;
+    letter-spacing: .06rem;
+    font-weight: $txt-wt;
+    text-align: left;
+    max-width: 50rem;
+}
+
+.t_body3 {
+    @extend %t_body_base;
+    font-weight: $txt-wt-emp;
+    letter-spacing: .06rem;
+}
+
+.t_body4 {
+    @extend %t_body_base;
+    font-weight: $txt-wt;
+    letter-spacing: .06rem;
+}
+
+.t_body5 {
+    @extend %t_body_base;
+    letter-spacing: .06rem;
+    font-weight: $txt-wt;
+    text-align: left;
+    max-width: 50rem;
+    padding-bottom: 1rem;
+}
+
+.t_right {
+    text-align: right;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.t_lnk {
+    padding-top: 0rem;
+}
+
+.t_subPageTitle {
+    padding-right: 2rem;
+}
+
+.t_rpad {
+    padding-right: 1rem;
+}
+
+.t_vertical{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+}
+
+@media screen and (max-width: 480px) {
+    .t_lnk {
+        padding-top: 0;
+    }
+}

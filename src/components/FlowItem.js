@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from "react-router-dom";
 import '../App.css'
 import './Flow.css'
 
@@ -13,7 +14,8 @@ class FlowItem extends Component {
             projectDescription: "",
             projectLink: "",
             image: "",
-            imageSelector: ""
+            imageSelector: "",
+            singlePage: "",
         }
     }
 
@@ -25,9 +27,33 @@ class FlowItem extends Component {
             projectDescription: this.props.projectDescription,
             projectLink: this.props.projectLink,
             image: `./images/thumbs/${this.props.image}`,
-            imageSelector: this.props.imageSelector
+            imageSelector: this.props.imageSelector,
+            singlePage: this.props.singlePage
          })
          console.log(this.state.imageSelector);
+    }
+
+    renderLink() {
+        if (this.state.singlePage) {
+            return (
+                <NavLink to={this.state.projectLink}>
+                    <div class='flow_box_darken'></div>
+                    <div class='flow_box_text'>
+                        <p class='t_body3'>{this.state.projectName}</p>
+                        <p class='t_body5'>{this.state.projectDescription}</p>
+                    </div>
+                </NavLink>
+            )
+        }
+        return (
+            <a href={this.state.projectLink}>
+                <div class='flow_box_darken'></div>
+                <div class='flow_box_text'>
+                    <p class='t_body3'>{this.state.projectName}</p>
+                    <p class='t_body5'>{this.state.projectDescription}</p>
+                </div>
+            </a>
+        )
     }
 
     render () {
@@ -36,13 +62,7 @@ class FlowItem extends Component {
             <div class='aspectRatioSizer flow_item_container'>
                 <svg viewBox="0 0 21 9"></svg>
                 <div class={`flow_item_relative ${this.state.imageSelector}`}>
-                    <a href={this.state.projectLink}>
-                        <div class='flow_box_darken'></div>
-                        <div class='flow_box_text'>
-                            <p class='t_body3'>{this.state.projectName}</p>
-                            <p class='t_body5'>{this.state.projectDescription}</p>
-                        </div>
-                    </a>
+                    {this.renderLink()}
                 </div>
             </div>
         )

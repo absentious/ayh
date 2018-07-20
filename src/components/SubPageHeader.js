@@ -1,18 +1,20 @@
 import React, { Component } from 'react'
+import { NavLink } from "react-router-dom";
 import '../App.css'
 import './PageHeader.css'
 
-class PageHeader extends Component {
+class SubPageHeader extends Component {
     constructor () {
         super()
     
         this.state = {
+            subtitle: "",
             platforms: []
         }
     }
 
     componentWillMount() {
-        this.setState({ platforms: this.props.platformData.platforms });
+        this.setState({ subtitle: this.props.subtitle, platforms: this.props.platformData.platforms });
     }
 
     render () {
@@ -20,8 +22,12 @@ class PageHeader extends Component {
         return (
             <div>
                 <div class='s_header'>
-                    <div class='s_header_subtitle'><p class='t_stitle'>austin y hou</p></div>
+                    <NavLink to='/'>
+                        <div class='s_header_subtitle'><p class='t_body2 nav_subtohome'>austin y hou</p></div>
+                    </NavLink>
                     <p class='t_body2 nav_symbol nav_hide_m'>/</p>
+                    <div class='s_header_links nav_hide_m'><p class='t_stitle t_subPageTitle'>{this.state.subtitle}</p></div>
+
                     <div class='header_social_wrapper'>
                         {this.state.platforms.map(platform => {
                             return (
@@ -47,10 +53,12 @@ class PageHeader extends Component {
                     </div>
                 </div>
                 <div class='header_m'>
+                    <p class='t_body2 nav_symbol'>/</p>
+                    <p class='t_stitle t_subPageTitle'>{this.state.subtitle}</p>
                 </div>
             </div>
         )
     }
 }
 
-export default PageHeader;
+export default SubPageHeader;

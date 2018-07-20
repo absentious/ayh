@@ -85,14 +85,24 @@
                     "projectYear": "2018", 
                     "projectCategory": "Music", 
                     "projectDescription": "generative ink / dreaming in circles",
-                    "projectLink": "http://ayh.io/tonoto",
-                    "imageSelector": "bg_ton"
+                    "projectLink": "/tonoto",
+                    "imageSelector": "bg_ton",
+                    "singlePage": true
                 }
             ]
         },
         {
             "label": "",
             "items": [
+                {
+                    "projectName": "testPage", 
+                    "projectYear": "2018", 
+                    "projectCategory": "Music", 
+                    "projectDescription": "pushing boundaries in photography",
+                    "projectLink": "/testPage",
+                    "imageSelector": "bg_b_cmp",
+                    "singlePage": true
+                },
                 {
                     "projectName": "composition zine", 
                     "projectYear": "2018", 

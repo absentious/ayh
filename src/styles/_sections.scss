@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allcontent {
+    position: relative;
+    padding: 32px;
+}
+
+body, html {
+    color: $color-txt;
+    font-family: 'Barlow','Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: $txt-wt;
+    position: relative;
+    transition: 0.5s all;
+    background: $color-bg;
+    scroll-behavior: smooth;
+}
+
+.s_content {
+    width: 75%;
+    max-width: 75%;
+}
+
+.s_header {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-bottom: 32px;
+    width: calc(100% - 32px);
+    margin-right: 32px;
+}
+
+.s_header_title {
+    margin-right: 2rem;
+    margin-left: 32px;
+    padding-left: $txt-height-reg;
+}
+
+.s_header_subtitle {
+    margin-right: 1rem;
+    margin-left: 32px;
+    padding-left: $txt-height-reg;
+}
+
+.s_header_links {
+    margin-right: 1rem;
+}
+
+.s_body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 91px;
+    width: calc(100% - 32px);
+    padding-right: 32px;
+}
+
+.s_body_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.s_row_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.s_flow_container {
+    width: calc(33% - 32px);
+    height: 0;
+}
+
+.m_rl {
+    text-align: right;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .allcontent {
+        padding: 16px;
+    }
+
+    .s_row {
+        flex-direction: column;
+    }
+
+    .s_header {
+        flex-direction: row;
+    }
+
+    .s_header_title {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .s_header_subtitle {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .s_header_links {
+        display: none;
+    }
+
+    .s_row_title {
+        display: none;
+    }
+
+    .s_body {
+        padding-right: 0;
+    }
+
+    .s_body_row {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    .m_bpad {
+        margin-bottom: 1rem;
+        padding-right: 0;
+    }
+
+    .m_rl {
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+
+}
