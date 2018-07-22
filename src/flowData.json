@@ -95,6 +95,14 @@
             "label": "",
             "items": [
                 {
+                    "projectName": "around the world", 
+                    "projectYear": "2017", 
+                    "projectCategory": "2015-2018 / travel hacking", 
+                    "projectDescription": "[under construction] 6 circumnavigations of the globe",
+                    "projectLink": "",
+                    "imageSelector": "bg_l_cnavt"
+                },
+                {
                     "projectName": "composition zine", 
                     "projectYear": "2017", 
                     "projectCategory": "2017 / photography", 
@@ -119,6 +127,14 @@
                     "imageSelector": "bg_b_lem"
                 },
                 {
+                    "projectName": "am | pm", 
+                    "projectYear": "2016", 
+                    "projectCategory": "2016 / film", 
+                    "projectDescription": "directed a short film about the life of an painter",
+                    "projectLink": "https://www.imdb.com/title/tt5510850/?ref_=nm_knf_t1",
+                    "imageSelector": "bg_l_apm"
+                },
+                {
                     "projectName": "nih / ninds", 
                     "projectYear": "2015", 
                     "projectCategory": "2010-2015 / research", 
@@ -133,6 +149,14 @@
                     "projectDescription": "talk at the startup shell",
                     "projectLink": "https://www.youtube.com/watch?v=Vx1REz9RVYc",
                     "imageSelector": "bg_b_s33"
+                },
+                {
+                    "projectName": "travel hacking - retrospective", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2015 / video", 
+                    "projectDescription": "a retrospective of my journeys",
+                    "projectLink": "https://vimeo.com/150560872",
+                    "imageSelector": "bg_l_rtv"
                 },
                 {
                     "projectName": "nasa jpl / deep space network", 
