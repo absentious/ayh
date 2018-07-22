@@ -6,7 +6,7 @@
                 {
                     "projectName": "horizons", 
                     "projectYear": "2018", 
-                    "projectCategory": "Design", 
+                    "projectCategory": "2018 / design", 
                     "projectDescription": "travel planning for humans",
                     "projectLink": "http://ayh.io/horizons",
                     "image": "b_hrz.png",
@@ -15,7 +15,7 @@
                 {
                     "projectName": "mavencook", 
                     "projectYear": "2018", 
-                    "projectCategory": "Design", 
+                    "projectCategory": "2017-2018 / design", 
                     "projectDescription": "designing a videochat cooking education platform",
                     "projectLink": "http://ayh.io/mavencook",
                     "image": "b_mav.png",
@@ -24,7 +24,7 @@
                 {
                     "projectName": "stanford hospital", 
                     "projectYear": "2017", 
-                    "projectCategory": "Design", 
+                    "projectCategory": "2017 / design", 
                     "projectDescription": "building protocols for critical care in the delivery room",
                     "projectLink": "http://ayh.io/neo",
                     "image": "b_neo.png",
@@ -38,7 +38,7 @@
                 {
                     "projectName": "running away from home", 
                     "projectYear": "2015-2018", 
-                    "projectCategory": "Travel", 
+                    "projectCategory": "", 
                     "projectDescription": "three years of travel hacking",
                     "projectLink": "https://my.flightradar24.com/Absentious",
                     "imageSelector": "bg_b_trv"
@@ -46,7 +46,7 @@
                 {
                     "projectName": "taking pictures with my camera", 
                     "projectYear": "", 
-                    "projectCategory": "Photography", 
+                    "projectCategory": "", 
                     "projectDescription": "see through my lens",
                     "projectLink": "http://ayh.io/photography.html",
                     "imageSelector": "bg_b_pho_a"
@@ -54,7 +54,7 @@
                 {
                     "projectName": "listening to music", 
                     "projectYear": "2015-2018", 
-                    "projectCategory": "Music", 
+                    "projectCategory": "", 
                     "projectDescription": "an album a day for three years",
                     "projectLink": "http://ayh.io/music",
                     "imageSelector": "bg_b_mus"
@@ -67,7 +67,7 @@
                 {
                     "projectName": "organica", 
                     "projectYear": "2018", 
-                    "projectCategory": "Music", 
+                    "projectCategory": "2018 / art + code", 
                     "projectDescription": "[under construction] generative 3D audiovisual sculptures",
                     "projectLink": "",
                     "imageSelector": "bg_b_org_a"
@@ -75,7 +75,7 @@
                 {
                     "projectName": "tori", 
                     "projectYear": "2018", 
-                    "projectCategory": "Music", 
+                    "projectCategory": "2018 / design", 
                     "projectDescription": "[under construction] branding a travel safety app",
                     "projectLink": "",
                     "imageSelector": "bg_b_tor"
@@ -83,7 +83,7 @@
                 {
                     "projectName": "tonoto", 
                     "projectYear": "2018", 
-                    "projectCategory": "Music", 
+                    "projectCategory": "2018 / art + code", 
                     "projectDescription": "generative ink / dreaming in circles",
                     "projectLink": "/tonoto",
                     "imageSelector": "bg_ton",
@@ -95,34 +95,25 @@
             "label": "",
             "items": [
                 {
-                    "projectName": "testPage", 
-                    "projectYear": "2018", 
-                    "projectCategory": "Music", 
-                    "projectDescription": "pushing boundaries in photography",
-                    "projectLink": "/testPage",
-                    "imageSelector": "bg_b_cmp",
-                    "singlePage": true
-                },
-                {
                     "projectName": "composition zine", 
-                    "projectYear": "2018", 
-                    "projectCategory": "Music", 
+                    "projectYear": "2017", 
+                    "projectCategory": "2017 / photography", 
                     "projectDescription": "pushing boundaries in photography",
                     "projectLink": "http://ayh.io/composition.html",
                     "imageSelector": "bg_b_cmp"
                 },
                 {
                     "projectName": "seti", 
-                    "projectYear": "2018", 
-                    "projectCategory": "Music", 
+                    "projectYear": "2016", 
+                    "projectCategory": "2016 / research / signal processing", 
                     "projectDescription": "signal processing research on the allen telescope array",
                     "projectLink": "http://blog.ibmjstart.net/2016/06/29/ibm-stanford-university-team-new-perspective-seti-signal-analytics/",
                     "imageSelector": "bg_b_ibm"
                 },
                 {
                     "projectName": "lemnos", 
-                    "projectYear": "2018", 
-                    "projectCategory": "Design", 
+                    "projectYear": "2016", 
+                    "projectCategory": "2016 / design", 
                     "projectDescription": "reimagining the graveyard",
                     "projectLink": "https://vimeo.com/150560872",
                     "imageSelector": "bg_b_lem"
@@ -130,7 +121,7 @@
                 {
                     "projectName": "nih / ninds", 
                     "projectYear": "2015", 
-                    "projectCategory": "Research", 
+                    "projectCategory": "2010-2015 / research", 
                     "projectDescription": "biophysics research into the postsynaptic density",
                     "projectLink": "https://www.ncbi.nlm.nih.gov/pubmed/266043%2011",
                     "imageSelector": "bg_b_nih"
@@ -138,7 +129,7 @@
                 {
                     "projectName": "travel hacking 101", 
                     "projectYear": "2018", 
-                    "projectCategory": "Design", 
+                    "projectCategory": "2015 / talk", 
                     "projectDescription": "talk at the startup shell",
                     "projectLink": "https://www.youtube.com/watch?v=Vx1REz9RVYc",
                     "imageSelector": "bg_b_s33"
@@ -146,7 +137,7 @@
                 {
                     "projectName": "nasa jpl / deep space network", 
                     "projectYear": "2018", 
-                    "projectCategory": "Design", 
+                    "projectCategory": "2014 / research", 
                     "projectDescription": "processing satellite downlink data at gigabit scale rates",
                     "projectLink": "",
                     "imageSelector": "bg_b_dsn"
@@ -154,7 +145,7 @@
                 {
                     "projectName": "burning man 2013", 
                     "projectYear": "2018", 
-                    "projectCategory": "Design", 
+                    "projectCategory": "2013 / film", 
                     "projectDescription": "documentation of a city in the dust",
                     "projectLink": "https://vimeo.com/76244537",
                     "imageSelector": "bg_b_bmv"

@@ -40,6 +40,7 @@ class FlowItem extends Component {
                     <div class='flow_box_darken'></div>
                     <div class='flow_box_text'>
                         <p class='t_body3'>{this.state.projectName}</p>
+                        <p class='t_body5 t_categories'>{this.state.projectCategory}</p>
                         <p class='t_body5'>{this.state.projectDescription}</p>
                     </div>
                 </NavLink>
@@ -50,6 +51,7 @@ class FlowItem extends Component {
                 <div class='flow_box_darken'></div>
                 <div class='flow_box_text'>
                     <p class='t_body3'>{this.state.projectName}</p>
+                    <p class='t_body5 t_categories'>{this.state.projectCategory}</p>
                     <p class='t_body5'>{this.state.projectDescription}</p>
                 </div>
             </a>

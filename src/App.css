@@ -107,9 +107,17 @@ a:hover {
   height: 20px;
 }
 
+.t_categories {
+  opacity: 0.54;
+}
+
 @media screen and (max-width: 480px) {
   .t_lnk {
     padding-top: 0;
+  }
+
+  .t_categories {
+    display: none;
   }
 }
 .i_spc {
