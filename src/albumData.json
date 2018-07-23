@@ -1,7 +1,7 @@
 {
     "sections": [
         {
-            "label": "CURRENTLY",
+            "label": "RECENT",
             "albumList": [
                 {"albumName": "Nothing Is Still", "artistName": "Leon Vynehall", "genre": "electronic", "link": "#"}, 
                 {"albumName": "Moodie", "artistName": "Yuno", "genre": "psychedelic pop", "link": "#"}, 
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "label": "PERFECT ALBUMS",
+            "label": "PERFECT",
             "albumList": [
                 {"albumName": "Before The Dawn Heals Us", "artistName": "M83", "genre": "electronic / rock"}, 
                 {"albumName": "22, A Million", "artistName": "Bon Iver", "genre": "experimental / rock"}, 
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "label": "ALL RECS",
+            "label": "NOTABLE",
             "albumList": [
                 {"albumName": "Bicep", "artistName": "Bicep", "genre": "techno / trance"}, 
                 {"albumName": "Wet Will Always Dry", "artistName": "Blawan", "genre": "industrial techno"}, 

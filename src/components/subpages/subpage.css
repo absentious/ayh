@@ -89,6 +89,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .m_noleft {
+        margin-left: 0;
+    }
+
     .subcontent {
         padding-left: 0;
         margin-left: 0;
@@ -117,5 +122,14 @@
     .padr {
         margin-right: 0;
         margin-bottom: 16px;
+    }
+
+    .music_item_container {
+        width: calc(50% - 16px);
+        margin-right: 0;
+    }
+
+    .musicHolder {
+        justify-content: space-between;
     }
 }
