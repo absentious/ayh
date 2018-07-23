@@ -56,8 +56,9 @@
                     "projectYear": "2015-2018", 
                     "projectCategory": "", 
                     "projectDescription": "an album a day for three years",
-                    "projectLink": "http://ayh.io/music",
-                    "imageSelector": "bg_b_mus"
+                    "projectLink": "/music",
+                    "imageSelector": "bg_b_mus",
+                    "singlePage": true
                 }
             ]
         },
@@ -68,9 +69,10 @@
                     "projectName": "organica", 
                     "projectYear": "2018", 
                     "projectCategory": "2018 / art + code", 
-                    "projectDescription": "[under construction] generative 3D audiovisual sculptures",
-                    "projectLink": "",
-                    "imageSelector": "bg_b_org_a"
+                    "projectDescription": "generative 3D audiovisual sculptures",
+                    "projectLink": "/organica",
+                    "imageSelector": "bg_b_org_a",
+                    "singlePage": true
                 },
                 {
                     "projectName": "tori", 

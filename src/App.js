@@ -17,7 +17,7 @@ import socialData from './socialData.json';
 import TestPage from './components/testpage/TestPage';
 import FlowRender from './components/FlowRender';
 
-import { Tonoto, Template } from './components/subpages';
+import { Tonoto, Organica, Albums } from './components/subpages';
 
 class App extends Component {
 
@@ -43,6 +43,8 @@ class App extends Component {
             <Route exact path='/' render={() => <PageHeader platformData={socialData} />} />
             <Route path='/testPage' render={() => <SubPageHeader subtitle="testPage" platformData={socialData} />} />
             <Route path='/tonoto' render={() => <SubPageHeader subtitle="tonoto" platformData={socialData} />} />
+            <Route path='/organica' render={() => <SubPageHeader subtitle="organica" platformData={socialData} />} />
+            <Route path='/music' render={() => <SubPageHeader subtitle="music" platformData={socialData} />} />
             
             <div class='s_body'>
               <Route 
@@ -52,6 +54,8 @@ class App extends Component {
               />
               <Route path='/testPage' component={TestPage} />
               <Route path='/tonoto' component={Tonoto} />
+              <Route path='/organica' component={Organica} />
+              <Route path='/music' component={Albums} />
             </div>
           </div>
         </div>

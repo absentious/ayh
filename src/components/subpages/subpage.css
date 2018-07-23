@@ -30,3 +30,92 @@
 .bottomSpace {
     margin-bottom: 64px;
 }
+
+.bottomSpace_half {
+    margin-bottom: 32px;
+}
+
+
+
+.organica_mov {
+    width: 30rem;
+    height: 30rem;
+}
+
+.musicHolder {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 60rem;
+}
+
+.music_item_container {
+    position: relative;
+    width: calc(25% - 32px);
+    height: auto;
+    margin-bottom: 32px;
+    margin-right: 32px;
+}
+
+.music_item_absolute {
+    position: absolute;
+}
+
+
+.music_img {
+    width: 100%;
+    height: auto;
+}
+
+.music_box_darken {
+    position: absolute;
+    transition: opacity 0.3s;
+    width: 100%;
+    background: #f6f6f6;
+    opacity: 0;
+}
+
+.music_box_darken:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.music_item_container:hover .music_box_darken {
+    opacity: .95;
+}
+
+.music_item_container:hover .flow_box_text {
+    opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .subcontent {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .organica_mov {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .imglarge {
+        width: 100%;
+        height: auto;
+    }
+    
+    .imgmed {
+        width: 100%;
+        height: auto;
+    }
+
+    .img_flow {
+        flex-direction: column;
+    }
+
+    .padr {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}

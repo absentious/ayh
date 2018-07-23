@@ -21,7 +21,7 @@ class PageHeader extends Component {
             <div>
                 <div class='s_header'>
                     <div class='s_header_subtitle'><p class='t_stitle'>austin y hou</p></div>
-                    <p class='t_body2 nav_symbol nav_hide_m'>/</p>
+                    <p class='t_body2 nav_symbol'>/</p>
                     <div class='header_social_wrapper'>
                         {this.state.platforms.map(platform => {
                             return (
