@@ -7,10 +7,10 @@
                 {"albumName": "Moodie", "artistName": "Yuno", "genre": "psychedelic pop", "link": "#"}, 
                 {"albumName": "Anthem", "artistName": "Heinali", "genre": "ambient", "link": "#"}, 
                 {"albumName": "Brightblack Morning Light", "artistName": "Brightblack Morning Light", "genre": "psychedelic rock / blues"}, 
-                {"albumName": "Voids", "artistName": "Martyn", "genre": "bass / electronic"}, 
-                {"albumName": "Hope Downs", "artistName": "Rolling Blackouts Coastal Fever", "genre": "indie rock"}, 
-                {"albumName": "Ordinary Corrupt Human Love", "artistName": "Deafheaven", "genre": "metal"}, 
-                {"albumName": "Audio Dope", "artistName": "Audio Dope", "genre": "lo-fi / hip hop"}
+                {"albumName": "Dimensional People", "artistName": "Mouse on Mars", "genre": "experimental"}, 
+                {"albumName": "Discreet Desires", "artistName": "Helena Hauff", "genre": "synth / electro"}, 
+                {"albumName": "Semblance", "artistName": "FORMA", "genre": "ambient / experimental"}, 
+                {"albumName": "Radio Amor", "artistName": "Tim Hecker", "genre": "electronic"}
             ]
         },
         {
@@ -39,6 +39,10 @@
         {
             "label": "NOTABLE",
             "albumList": [
+                {"albumName": "Voids", "artistName": "Martyn", "genre": "bass / electronic"}, 
+                {"albumName": "Hope Downs", "artistName": "Rolling Blackouts Coastal Fever", "genre": "indie rock"}, 
+                {"albumName": "Ordinary Corrupt Human Love", "artistName": "Deafheaven", "genre": "metal"}, 
+                {"albumName": "Audio Dope", "artistName": "Audio Dope", "genre": "lo-fi / hip hop"},
                 {"albumName": "Bicep", "artistName": "Bicep", "genre": "techno / trance"}, 
                 {"albumName": "Wet Will Always Dry", "artistName": "Blawan", "genre": "industrial techno"}, 
                 {"albumName": "Backwater", "artistName": "Kllo", "genre": "indie pop"}, 

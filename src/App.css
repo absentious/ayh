@@ -242,6 +242,16 @@ a:hover {
   background-size: cover;
 }
 
+.bg_b_cof {
+  background: url("images/icons/b_cof.png") no-repeat center center;
+  background-size: cover;
+}
+
+.bg_b_glx {
+  background: url("images/icons/b_glx.png") no-repeat center center;
+  background-size: cover;
+}
+
 * {
   margin: 0;
   padding: 0;

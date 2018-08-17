@@ -4,13 +4,13 @@
             "label": "SPOTLIGHT",
             "items": [
                 {
-                    "projectName": "horizons", 
-                    "projectYear": "2018", 
-                    "projectCategory": "2018 / design", 
-                    "projectDescription": "travel planning for humans",
-                    "projectLink": "http://ayh.io/horizons",
-                    "image": "b_hrz.png",
-                    "imageSelector": "bg_b_hrz"
+                    "projectName": "stanford hospital", 
+                    "projectYear": "2017", 
+                    "projectCategory": "2017 / design", 
+                    "projectDescription": "building protocols for critical care in the delivery room",
+                    "projectLink": "http://ayh.io/neo",
+                    "image": "b_neo.png",
+                    "imageSelector": "bg_b_neo"
                 },
                 {
                     "projectName": "mavencook", 
@@ -22,13 +22,13 @@
                     "imageSelector": "bg_b_mav"
                 },
                 {
-                    "projectName": "stanford hospital", 
-                    "projectYear": "2017", 
-                    "projectCategory": "2017 / design", 
-                    "projectDescription": "building protocols for critical care in the delivery room",
-                    "projectLink": "http://ayh.io/neo",
-                    "image": "b_neo.png",
-                    "imageSelector": "bg_b_neo"
+                    "projectName": "caffinity", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2018 / design + code", 
+                    "projectDescription": "cafe directory for work",
+                    "projectLink": "https://caffinity.co",
+                    "imageSelector": "bg_b_cof",
+                    "singlePage": false
                 }
             ]
         },
@@ -66,6 +66,24 @@
             "label": "EXPLORE",
             "items": [
                 {
+                    "projectName": "temple galaxia [spoken]", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2018 / art + code", 
+                    "projectDescription": "lighting pattern for the 2018 burning man temple",
+                    "projectLink": "https://galaxiaspoken.org",
+                    "image": "b_glx.png",
+                    "imageSelector": "bg_b_glx"
+                },
+                {
+                    "projectName": "horizons", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2018 / design", 
+                    "projectDescription": "travel planning for humans",
+                    "projectLink": "http://ayh.io/horizons",
+                    "image": "b_hrz.png",
+                    "imageSelector": "bg_b_hrz"
+                },
+                {
                     "projectName": "organica", 
                     "projectYear": "2018", 
                     "projectCategory": "2018 / art + code", 
@@ -73,7 +91,13 @@
                     "projectLink": "/organica",
                     "imageSelector": "bg_b_org_a",
                     "singlePage": true
-                },
+                }
+            
+            ]
+        },
+        {
+            "label": "",
+            "items": [
                 {
                     "projectName": "tori", 
                     "projectYear": "2018", 
@@ -90,12 +114,7 @@
                     "projectLink": "/tonoto",
                     "imageSelector": "bg_ton",
                     "singlePage": true
-                }
-            ]
-        },
-        {
-            "label": "",
-            "items": [
+                },
                 {
                     "projectName": "around the world", 
                     "projectYear": "2017", 
