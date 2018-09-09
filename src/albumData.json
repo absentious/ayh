@@ -3,13 +3,13 @@
         {
             "label": "RECENT",
             "albumList": [
-                {"albumName": "Nothing Is Still", "artistName": "Leon Vynehall", "genre": "electronic", "link": "#"}, 
-                {"albumName": "Moodie", "artistName": "Yuno", "genre": "psychedelic pop", "link": "#"}, 
-                {"albumName": "Anthem", "artistName": "Heinali", "genre": "ambient", "link": "#"}, 
                 {"albumName": "Brightblack Morning Light", "artistName": "Brightblack Morning Light", "genre": "psychedelic rock / blues"}, 
+                {"albumName": "Be The Cowboy", "artistName": "Mitski", "genre": "rock"}, 
+                {"albumName": "Devotion", "artistName": "Tirzah", "genre": "electronic"}, 
+                {"albumName": "Flow State", "artistName": "Tash Sultana", "genre": "indie rock / pop"}, 
                 {"albumName": "Dimensional People", "artistName": "Mouse on Mars", "genre": "experimental"}, 
-                {"albumName": "Discreet Desires", "artistName": "Helena Hauff", "genre": "synth / electro"}, 
-                {"albumName": "Semblance", "artistName": "FORMA", "genre": "ambient / experimental"}, 
+                {"albumName": "Ostati", "artistName": "HVL", "genre": "techno"}, 
+                {"albumName": "The English Beach", "artistName": "Broken English Club", "genre": "experimental"}, 
                 {"albumName": "Radio Amor", "artistName": "Tim Hecker", "genre": "electronic"}
             ]
         },
@@ -39,6 +39,12 @@
         {
             "label": "NOTABLE",
             "albumList": [
+                {"albumName": "Family Portrait", "artistName": "Ross From Friends", "genre": "lo fi / house"}, 
+                {"albumName": "Discreet Desires", "artistName": "Helena Hauff", "genre": "synth / electro"}, 
+                {"albumName": "Semblance", "artistName": "FORMA", "genre": "ambient / experimental"}, 
+                {"albumName": "Nothing Is Still", "artistName": "Leon Vynehall", "genre": "electronic", "link": "#"}, 
+                {"albumName": "Moodie", "artistName": "Yuno", "genre": "psychedelic pop", "link": "#"}, 
+                {"albumName": "Anthem", "artistName": "Heinali", "genre": "ambient", "link": "#"}, 
                 {"albumName": "Voids", "artistName": "Martyn", "genre": "bass / electronic"}, 
                 {"albumName": "Hope Downs", "artistName": "Rolling Blackouts Coastal Fever", "genre": "indie rock"}, 
                 {"albumName": "Ordinary Corrupt Human Love", "artistName": "Deafheaven", "genre": "metal"}, 
