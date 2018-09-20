@@ -252,6 +252,11 @@ a:hover {
   background-size: cover;
 }
 
+.bg_b_nni {
+  background: url("images/icons/b_nni.png") no-repeat center center;
+  background-size: cover;
+}
+
 * {
   margin: 0;
   padding: 0;

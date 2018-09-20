@@ -4,6 +4,24 @@
             "label": "SPOTLIGHT",
             "items": [
                 {
+                    "projectName": "temple galaxia [spoken]", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2018 / art + code", 
+                    "projectDescription": "lighting pattern for the 2018 burning man temple",
+                    "projectLink": "https://galaxiaspoken.org",
+                    "image": "b_glx.png",
+                    "imageSelector": "bg_b_glx"
+                },
+                {
+                    "projectName": "horizons", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2018 / design", 
+                    "projectDescription": "travel planning for humans",
+                    "projectLink": "http://ayh.io/horizons",
+                    "image": "b_hrz.png",
+                    "imageSelector": "bg_b_hrz"
+                },
+                {
                     "projectName": "stanford hospital", 
                     "projectYear": "2017", 
                     "projectCategory": "2017 / design", 
@@ -11,24 +29,6 @@
                     "projectLink": "http://ayh.io/neo",
                     "image": "b_neo.png",
                     "imageSelector": "bg_b_neo"
-                },
-                {
-                    "projectName": "mavencook", 
-                    "projectYear": "2018", 
-                    "projectCategory": "2017-2018 / design", 
-                    "projectDescription": "designing a videochat cooking education platform",
-                    "projectLink": "http://ayh.io/mavencook",
-                    "image": "b_mav.png",
-                    "imageSelector": "bg_b_mav"
-                },
-                {
-                    "projectName": "caffinity", 
-                    "projectYear": "2018", 
-                    "projectCategory": "2018 / design + code", 
-                    "projectDescription": "cafe directory for work",
-                    "projectLink": "https://caffinity.co",
-                    "imageSelector": "bg_b_cof",
-                    "singlePage": false
                 }
             ]
         },
@@ -66,23 +66,37 @@
             "label": "EXPLORE",
             "items": [
                 {
-                    "projectName": "horizons", 
+                    "projectName": "caffinity", 
                     "projectYear": "2018", 
-                    "projectCategory": "2018 / design", 
-                    "projectDescription": "travel planning for humans",
-                    "projectLink": "http://ayh.io/horizons",
-                    "image": "b_hrz.png",
-                    "imageSelector": "bg_b_hrz"
+                    "projectCategory": "2018 / design + code", 
+                    "projectDescription": "cafe directory for work",
+                    "projectLink": "https://caffinity.co",
+                    "imageSelector": "bg_b_cof",
+                    "singlePage": false
                 },
                 {
-                    "projectName": "temple galaxia [spoken]", 
+                    "projectName": "gazelle [wip]", 
                     "projectYear": "2018", 
-                    "projectCategory": "2018 / art + code", 
-                    "projectDescription": "lighting pattern for the 2018 burning man temple",
-                    "projectLink": "https://galaxiaspoken.org",
-                    "image": "b_glx.png",
-                    "imageSelector": "bg_b_glx"
+                    "projectCategory": "2018 / design + code ", 
+                    "projectDescription": "intuitive AI interface",
+                    "projectLink": "",
+                    "image": "b_nni.png",
+                    "imageSelector": "bg_b_nni"
                 },
+                {
+                    "projectName": "mavencook", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2017-2018 / design", 
+                    "projectDescription": "designing a videochat cooking education platform",
+                    "projectLink": "http://ayh.io/mavencook",
+                    "image": "b_mav.png",
+                    "imageSelector": "bg_b_mav"
+                }
+            ]
+        },
+        {
+            "label": "",
+            "items": [
                 {
                     "projectName": "organica", 
                     "projectYear": "2018", 
@@ -91,13 +105,7 @@
                     "projectLink": "/organica",
                     "imageSelector": "bg_b_org_a",
                     "singlePage": true
-                }
-            
-            ]
-        },
-        {
-            "label": "",
-            "items": [
+                },
                 {
                     "projectName": "tori", 
                     "projectYear": "2018", 
