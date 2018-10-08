@@ -3,18 +3,14 @@
         {
             "label": "RECENT",
             "albumList": [
-                {"albumName": "Devotion", "artistName": "Tirzah", "genre": "electronic"}, 
+                {"albumName": "Over Skies", "artistName": "quickly, quickly", "genre": "chillhop / downtempo"}, 
                 {"albumName": "Flow State", "artistName": "Tash Sultana", "genre": "indie rock / pop"}, 
                 {"albumName": "Infinite Moment", "artistName": "The Field", "genre": "techno"}, 
-                {"albumName": "Room 25", "artistName": "Noname", "genre": "rap / soul"}, 
+                {"albumName": "Room 25", "artistName": "Noname", "genre": "rap / soul"},
+                {"albumName": "And Yet It's All Love", "artistName": "Fatima", "genre": "funk / soul"}, 
                 {"albumName": "Dimensional People", "artistName": "Mouse on Mars", "genre": "experimental"}, 
                 {"albumName": "Ostati", "artistName": "HVL", "genre": "techno"}, 
-                {"albumName": "Basic Volume", "artistName": "Gaika", "genre": "rap"}, 
-                {"albumName": "000000002", "artistName": "999999999", "genre": "acid / techno"}, 
-                {"albumName": "Sol De Mi Vida", "artistName": "Dinamarca", "genre": "trance / reggaeton"}, 
-                {"albumName": "All My Time", "artistName": "Mechatok", "genre": "trance / trap"}, 
-                {"albumName": "New Horizon", "artistName": "JK Flesh", "genre": "techno"}, 
-                {"albumName": "Radio Amor", "artistName": "Tim Hecker", "genre": "electronic"}
+                {"albumName": "Big Red Machine", "artistName": "Big Red Machine", "genre": "indie"}
             ]
         },
         {
@@ -43,6 +39,12 @@
         {
             "label": "NOTABLE",
             "albumList": [
+                {"albumName": "Basic Volume", "artistName": "Gaika", "genre": "rap"}, 
+                {"albumName": "Devotion", "artistName": "Tirzah", "genre": "electronic"}, 
+                {"albumName": "Sol De Mi Vida", "artistName": "Dinamarca", "genre": "trance / reggaeton"}, 
+                {"albumName": "All My Time", "artistName": "Mechatok", "genre": "trance / trap"}, 
+                {"albumName": "New Horizon", "artistName": "JK Flesh", "genre": "techno"}, 
+                {"albumName": "Radio Amor", "artistName": "Tim Hecker", "genre": "electronic"},
                 {"albumName": "The English Beach", "artistName": "Broken English Club", "genre": "experimental"}, 
                 {"albumName": "Brightblack Morning Light", "artistName": "Brightblack Morning Light", "genre": "psychedelic rock / blues"}, 
                 {"albumName": "Be The Cowboy", "artistName": "Mitski", "genre": "rock"}, 
