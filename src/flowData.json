@@ -75,15 +75,6 @@
                     "singlePage": false
                 },
                 {
-                    "projectName": "gazelle [wip]", 
-                    "projectYear": "2018", 
-                    "projectCategory": "2018 / design + code ", 
-                    "projectDescription": "intuitive AI interface",
-                    "projectLink": "",
-                    "image": "b_nni.png",
-                    "imageSelector": "bg_b_nni"
-                },
-                {
                     "projectName": "mavencook", 
                     "projectYear": "2018", 
                     "projectCategory": "2017-2018 / design", 
@@ -91,6 +82,15 @@
                     "projectLink": "http://ayh.io/mavencook",
                     "image": "b_mav.png",
                     "imageSelector": "bg_b_mav"
+                },
+                {
+                    "projectName": "gazelle [wip]", 
+                    "projectYear": "2018", 
+                    "projectCategory": "2018 / design + code ", 
+                    "projectDescription": "intuitive AI interface",
+                    "projectLink": "",
+                    "image": "b_nni.png",
+                    "imageSelector": "bg_b_nni"
                 }
             ]
         },
